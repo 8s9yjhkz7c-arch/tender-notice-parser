@@ -1,0 +1,25 @@
+{
+  "name": "tender-notice-parser",
+  "version": "0.1.0",
+  "description": "Offline structured extraction from Chinese tender notice text",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "tender-notice-parser": "./bin/tender-notice-parser.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "examples/",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "keywords": ["procurement", "tender", "deadline", "chinese", "offline"]
+}
